@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+// import { Link, a } from "react-router-dom";
 
 const phoneNumber = "+XXXX-XXX-XXX";
 const address = "Address, India";
@@ -70,7 +70,8 @@ const Header = () => {
                 <div className="container">
                     <div className="header-wrapper">
                         <div className="logo">
-                            <Link to="/"><img src={require("../../assets/images/logo/logo2.png")} alt="logo" style={{width:120}} /></Link>
+                            
+                            <a href="#"><img src={require("../../assets/images/logo/logo2.png")} alt="logo" style={{width:120}} /></a>
                         </div>
                         <div className="menu-area">
                             <div className="menu">
@@ -79,78 +80,78 @@ const Header = () => {
                                         <a href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-bs-offset="0,0">Home</a>
                                         <a href="#" role="button">Home</a>
                                         <ul className="lab-ul dropdown-menu">
-                                            <li><NavLink to="/">Home One</NavLink></li>
-                                            <li><NavLink to="/index-2">Home Two</NavLink></li>
-                                            <li><NavLink to="/index-3">Home Three</NavLink></li>
-                                            <li><NavLink to="/index-4">Home Four</NavLink></li>
-                                            <li><NavLink to="/index-5">Home Five</NavLink></li>
-                                            <li><NavLink to="/index-6">Home Six</NavLink></li>
-                                            <li><NavLink to="/index-7">Home Seven</NavLink></li>
+                                            <li><a href="/">Home One</a></li>
+                                            <li><a href="/index-2">Home Two</a></li>
+                                            <li><a href="/index-3">Home Three</a></li>
+                                            <li><a href="/index-4">Home Four</a></li>
+                                            <li><a href="/index-5">Home Five</a></li>
+                                            <li><a href="/index-6">Home Six</a></li>
+                                            <li><a href="/index-7">Home Seven</a></li>
                                         </ul>
                                     </li> */}
-                                    <li><NavLink to="/">Home</NavLink></li>
+                                    <li><a href="#">Home</a></li>
                                      <li className="menu-item-has-children">
                                         <a href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-bs-offset="0,0">Products</a>
                                         <ul className="lab-ul dropdown-menu">
-                                            <li><NavLink to="/course">Easy Convert</NavLink></li>
-                                            <li><NavLink to="/course-single">Imathica</NavLink></li>
-                                            <li><NavLink to="/course-view">Alt text generator</NavLink></li>
-                                            <li><NavLink to="/course-view">Document validator</NavLink></li>
-                                            <li><NavLink to="/course-view">content comparison</NavLink></li>
-                                            <li><NavLink to="/course-view">comic smart panel creator</NavLink></li>
+                                            <li><a href="/course">Easy Convert</a></li>
+                                            <li><a href="/course-single">Imathica</a></li>
+                                            <li><a href="/course-view">Alt text generator</a></li>
+                                            <li><a href="/course-view">Document validator</a></li>
+                                            <li><a href="/course-view">content comparison</a></li>
+                                            <li><a href="/course-view">comic smart panel creator</a></li>
 
                                         </ul>
                                     </li>
                                     <li className="menu-item-has-children">
                                         <a href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-bs-offset="0,0">Services</a>
                                         <ul className="lab-ul dropdown-menu">
-                                            <li><NavLink to="/course">pdf manipulation</NavLink></li>
-                                            <li><NavLink to="/course-single">ebook conversion</NavLink></li>
-                                            <li><NavLink to="/course-view">pdf/epub/web accessibility</NavLink></li>
-                                            <li><NavLink to="/course-view">content ingestion</NavLink></li>
-                                            <li><NavLink to="/course-view">math conversion</NavLink></li>
-                                            <li><NavLink to="/course-view">read aloud solution</NavLink></li>
+                                            <li><a href="/course">pdf manipulation</a></li>
+                                            <li><a href="/course-single">ebook conversion</a></li>
+                                            <li><a href="/course-view">pdf/epub/web accessibility</a></li>
+                                            <li><a href="/course-view">content ingestion</a></li>
+                                            <li><a href="/course-view">math conversion</a></li>
+                                            <li><a href="/course-view">read aloud solution</a></li>
 
                                         </ul>
                                     </li>
                                     {/* <li className="menu-item-has-children">
                                         <a href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-bs-offset="0,0">Courses</a>
                                         <ul className="lab-ul dropdown-menu">
-                                            <li><NavLink to="/course">Course</NavLink></li>
-                                            <li><NavLink to="/course-single">Course Details</NavLink></li>
-                                            <li><NavLink to="/course-view">Course View</NavLink></li>
+                                            <li><a href="/course">Course</a></li>
+                                            <li><a href="/course-single">Course Details</a></li>
+                                            <li><a href="/course-view">Course View</a></li>
 
                                         </ul>
                                     </li> */}
                                     {/* <li className="menu-item-has-children">
                                         <a href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-bs-offset="0,0">Blog</a>
                                         <ul className="lab-ul dropdown-menu">
-                                            <li><NavLink to="/blog">Blog Grid</NavLink></li>
-                                            <li><NavLink to="/blog-2">Blog Style 2</NavLink></li>
-                                            <li><NavLink to="/blog-3">Blog Style 3</NavLink></li>
-                                            <li><NavLink to="/blog-single">Blog Single</NavLink></li>
+                                            <li><a href="/blog">Blog Grid</a></li>
+                                            <li><a href="/blog-2">Blog Style 2</a></li>
+                                            <li><a href="/blog-3">Blog Style 3</a></li>
+                                            <li><a href="/blog-single">Blog Single</a></li>
                                         </ul>
                                     </li> */}
                                     {/* <li className="menu-item-has-children">
                                         <a href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-bs-offset="0,0">Pages</a>
                                         <ul className="lab-ul dropdown-menu">
-                                            <li><NavLink to="/about">About</NavLink></li>
-                                            <li><NavLink to="/team">Team</NavLink></li>
-                                            <li><NavLink to="/instructor">Instructor</NavLink></li>
-                                            <li><NavLink to="/shop">Shop Page</NavLink></li>
-                                            <li><NavLink to="/shop-single">Shop Details Page</NavLink></li>
-                                            <li><NavLink to="/cart-page">Shop Cart Page</NavLink></li>
-                                            <li><NavLink to="/search-page">Search Page</NavLink></li>
-                                            <li><NavLink to="/search-none">Search None</NavLink></li>
-                                            <li><NavLink to="/404">404</NavLink></li>
+                                            <li><a href="/about">About</a></li>
+                                            <li><a href="/team">Team</a></li>
+                                            <li><a href="/instructor">Instructor</a></li>
+                                            <li><a href="/shop">Shop Page</a></li>
+                                            <li><a href="/shop-single">Shop Details Page</a></li>
+                                            <li><a href="/cart-page">Shop Cart Page</a></li>
+                                            <li><a href="/search-page">Search Page</a></li>
+                                            <li><a href="/search-none">Search None</a></li>
+                                            <li><a href="/404">404</a></li>
                                         </ul>
                                     </li> */}
-                                    <li><NavLink to="/contact">Contact</NavLink></li>
+                                    <li><a href="/contact">Contact</a></li>
                                 </ul>
                             </div>
 
-                            {/* <Link to="/login" className="login"><i className="icofont-user"></i> <span>LOG IN</span> </Link>
-                            <Link to="/signup" className="signup"><i className="icofont-users"></i> <span>SIGN UP</span> </Link> */}
+                            {/* <Link href="/login" className="login"><i className="icofont-user"></i> <span>LOG IN</span> </Link>
+                            <Link href="/signup" className="signup"><i className="icofont-users"></i> <span>SIGN UP</span> </Link> */}
 
                             <div className={`header-bar d-lg-none ${menuToggle ? "active" : ""}`} onClick={() => setMenuToggle(!menuToggle)}>
                                 <span></span>
