@@ -92,7 +92,7 @@ const Header = () => {
                                      <li className="menu-item-has-children">
                                         <a href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-bs-offset="0,0">Products</a>
                                         <ul className="lab-ul dropdown-menu">
-                                            <li><NavLink to="/course">Easy Convert</NavLink></li>
+                                            <li><NavLink to="/product1">Easy Convert</NavLink></li>
                                             <li><NavLink to="/course-single">Imathica</NavLink></li>
                                             <li><NavLink to="/course-view">Alt text generator</NavLink></li>
                                             <li><NavLink to="/course-view">Document validator</NavLink></li>

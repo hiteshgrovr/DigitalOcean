@@ -573,7 +573,7 @@
     }
     &.style-2 {
         @extend %p-0;
-        padding-top: 250px;
+        padding-top: 200px;
         background-image: url(../images/pageheader/bg/02.jpg);
         @include breakpoint(max-lg) {
             padding-bottom: 60px;

@@ -32,6 +32,7 @@ import ShopDetails from "./page/shop-single";
 import SignupPage from "./page/signup";
 import TeamPage from "./page/team";
 import TeamSingle from "./page/team-single";
+import Product1 from './page/product1';
 
 
 
@@ -48,6 +49,7 @@ function App() {
 				<Route path="index-6" element={<HomeSix />} />
 				<Route path="index-7" element={<HomeSeven />} />
 				<Route path="course" element={<CoursePage />} />
+				<Route path="product1" element={<Product1 />} />
 				<Route path="course-single" element={<CourseSingle />} />
 				<Route path="course-view" element={<CourseView />} />
 				<Route path="blog" element={<BlogPage />} />
